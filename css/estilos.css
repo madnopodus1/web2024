@@ -1,0 +1,33 @@
+.contenido{
+    /* center flex-end flex-start*/
+    align-items:center;
+    background:silver;
+    display:flex;
+    /* flex-direction:column; */
+    /* center flex-end flex-start space-between space-around */
+    justify-content:space-around;
+    height:500px;
+}
+
+.contenido div{
+    height:200px;
+    width:20%;
+}
+
+.cajahijo1{
+    background:pink;
+    /* order:4; */
+}
+.cajahijo2{
+    background:blue;
+    /* order:3; */
+}
+.cajahijo3{
+    align-self:flex-end;
+    background:fuchsia;
+    /* order:2; */
+}
+.cajahijo4{
+    background:yellow;
+    /* order:1; */
+}
